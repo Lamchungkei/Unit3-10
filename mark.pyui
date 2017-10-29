@@ -1,0 +1,106 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{55, 52}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{235, 291}, {150, 32}}",
+          "uuid" : "569F0B2D-5BBA-42AD-B20B-BD7E5A3ACDBC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter number",
+          "name" : "number_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{293, 52}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{210, 291}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "C1E885CC-6686-4388-829C-517AC10E6B03",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "number_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{48, 283}, {251, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{235, 291}, {150, 32}}",
+          "uuid" : "B8753C9C-DBC9-47FF-AC1B-F22EC5C7E4CA",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{55, 158}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{270, 291}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "4CE12B7C-D03B-4F46-ADFA-802FE53337D6",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{55, 226}, {230, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{235, 291}, {150, 32}}",
+          "uuid" : "6FA2F186-259C-4735-AFC0-805DA0E2D951",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "current_average_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {619, 614}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
